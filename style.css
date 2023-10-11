@@ -1,0 +1,26 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.inicio{
+    background-color: rgb(157, 196, 237);
+}
+
+div.container{
+    font-size: 22px;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+}
+
+#title{
+    font-size: 30px;
+}
+
+.imagen-redonda {
+    border-radius: 40%;
+}
+
+  
