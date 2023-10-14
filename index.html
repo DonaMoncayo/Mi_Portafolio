@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Titulo de mi pestaña-->
-    <title>Portafolio DONA</title>
+    <title>Portafolio</title>
     <link rel="shortcut icon" href="asset/dona.png" type="image/x-icon">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -17,30 +17,31 @@
 </head>
 
 <body>
+
+    <!--ENCABEZADO-->
     <div class="contain">
         <header>
             <div class="inicio">
                 <div class="container">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                        <a href="/" class="d-flex align-items-center my-4 my-lg-3 me-lg-auto text-black text-decoration-none" id="title">
+                        <a href="/" class="d-flex align-items-center  me-lg-auto text-black text-decoration-none" id="title">
                             Mi Portafolio
-                        </a>
 
                         <ul class="nav col-lg-auto my-2" id="secciones">
                             <li>
-                                <a href="#" class="nav-link">
+                                <a href="#sobremi" class="nav-link">
                                 <i class="bi bi-person-circle"></i>
                                 Sobre mí 
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link">
+                                <a href="#proyectos" class="nav-link">
                                 <i class="bi bi-file-earmark-code"></i>
                                 Proyectos 
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link">
+                                <a href="#contacto" class="nav-link">
                                 <i class="bi bi-telephone-fill"></i></i>
                                 Contacto 
                                 </a>
@@ -49,25 +50,28 @@
                     </div>
                 </div>
             </div>
+            <hr>
         </header>
-    </div>
+    </div>  <!--FIN DE ENCABEZADO-->
+  
 
+     <!--MAIN-->
     <div class="container_m">
         <main>
-            <section class="intro">
-                <div class="px-4 py-5 my-2 text-center">
-                  <h1 class="fw-light" style="text-align: center;">Sobre Mí</h1>
-                    <img class="d-block mx-auto mb-4 imagen-redonda" src="asset/yo.jpeg" alt="" width="300" height="360">
-                    <h3 class="display-8 fw text-body-emphasis s-m">¡Hola! Soy Dona</h3>
+            <section class="intro" id="sobremi">
+                <div class="px-8 py-5 my-2 text-center">
+                  <h1 class="fw-light" id="nom" style="text-align: center;">Sobre Mí</h1>
+                    <img class="d-block mx-auto mb-4 imagen-redonda" src="asset/yo2.jpeg" alt="" width="280" height="340">
+                    <h3 class="display-8 fw text-body-emphasis s-m" >Sobre Mi</h3>
                     <div class="col-lg-6 mx-auto">
-                      <p class="lead mb-4">Soy una apasionada estudiante universitaria con talento en desarrollo web y diseño, dedicada al frontend, buscando crear experiencias digitales impactantes.</p>
+                      <p class="lead mb-4"><em>Soy una apasionada estudiante universitaria con gusto por el aprendizaje en desarrollo web, diseño, y el desarrollo de programas, buscando crear experiencias digitales impactantes.</em></p>
                     </div>
                 </div>
             </section>
 
             <section>
                 <div class="container px-4 py-2" id="hanging-icons">
-                    <h2 class="pb-2 border-bottom">H A B I L I D A D E S</h2>
+                    <h2 class="pb-2 border-bottom">Habilidades</h2>
                     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
                       <div class="col d-flex align-items-start">
                         <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
@@ -111,7 +115,7 @@
 
             <section>
               <div class="container px-4 py-5" id="custom-cards">
-                <h2 class="pb-2 border-bottom">H O B B I E S </h2>
+                <h2 class="pb-2 border-bottom">Pasatiempos</h2>
             
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                   <div class="col">
@@ -142,8 +146,8 @@
               </div>
             </section>
 
-            <section>
-              <h1 class="fw-light" style="text-align: center;">Mis Proyectos</h1>
+            <section id="proyectos">
+              <h1 class="fw-light" style="text-align: center;" id="proyect">Mis Proyectos</h1>
               <div class="album py-5 bg-body-tertiary">
                 <div class="container">
             
@@ -154,10 +158,10 @@
                         src="asset/PICTEA.JPG" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" class="project-text">Aplicación web <strong>"PICTEA"</strong></text></img>
                         <div class="card-body">
                           <p class="card-text">Aplicación web desarrollada para enseñar a losniños con TEA a poder aprender lo básico
-                          delabecedario mediante pictogramas.</p>
+                          del abecedario mediante pictogramas.</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">VER PROYECTO</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/DonaMoncayo/AplicacionwebPicTEA" style="text-decoration: none;">VER PROYECTO</a></button>
                             </div>
                           </div>
                         </div>
@@ -172,7 +176,7 @@
                           <p class="card-text">Programa para enseñar mediantes teoría y prácticalos conceptos básicos de materias de matemáticas,ciencia y tecnología</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">VER PROYECTO</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/DonaMoncayo/AplicacionwebPicTEA" style="text-decoration: none;">VER PROYECTO</a></button>>
                             </div>
                           </div>
                         </div>
@@ -188,7 +192,7 @@
                           <p class="card-text">Programa para la enseñanza de integrales. Elprograma es capaz de enseñarle al usuariointegrales y a la vez evaluar su desempeño.</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">VER PROYECTO</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/DonaMoncayo/AplicacionwebPicTEA" style="text-decoration: none;">VER PROYECTO</a></button>
                             </div>
                           </div>
                         </div>
@@ -204,7 +208,7 @@
                           <p class="card-text">Programa para enseñar mediantes teoría y prácticalos conceptos básicos de materias de matemáticas,ciencia y tecnología</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">VER PROYECTO</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/DonaMoncayo/AplicacionwebPicTEA" style="text-decoration: none;">VER PROYECTO</a></button>
                             </div>
                           </div>
                         </div>
@@ -217,10 +221,10 @@
                         <img class="bd-placeholder-img card-img-top" width="100%" height="225" 
                         src="asset/onkos.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" class="project-text">Aplicación web<strong>"ONKOS"</strong></text></img>
                         <div class="card-body">
-                          <p class="card-text">Programa para la enseñanza de integrales. Elprograma es capaz de enseñarle al usuariointegrales y a la vez evaluar su desempeño.</p>
+                          <p class="card-text">Aplicación web dirigida a la divulgación de información respecto al cáncer; fundaciones de apoyo,foros de interacción y capacidad de que el usuario cree su cuenta personal.</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-sm btn-outline-secondary">VER PROYECTO</button>
+                              <button type="button" class="btn btn-sm btn-outline-secondary"><a href="https://github.com/DonaMoncayo/AplicacionwebPicTEA" style="text-decoration: none;">VER PROYECTO</a></button>
                             </div>
                           </div>
                         </div>
@@ -232,10 +236,12 @@
               </div>
              </section>
         </main>
-    </div>
+    </div> <!--FIN DE ENCABEZADO-->
 
-    <div class="container_f">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+
+    <!--PIE DE PAGINA-->
+    <div class="container_f" id="contacto">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
                   <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
@@ -260,8 +266,13 @@
                   </a>
                 </li>
                 </ul>
-              </footer>
-    </div>
+          </footer>  
+    </div> <!--FIN DE PIE DE PAGINA-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>

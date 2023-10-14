@@ -2,16 +2,9 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
-div.container{
-    font-size: 25px;
+header{
+    font-size: 20px;
     color: black;
-    
-}
-
-.inicio{
-    background-image:url('asset/cerosunos.jpg');
-    opacity: 0.8;
 }
 
 .nav-link{
@@ -23,22 +16,25 @@ div.container{
 }
 
 .imagen-redonda {
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .card-image {
     background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor. */
-     background-position: center; /* Centra la imagen de fondo horizontal y verticalmente. */
+    background-position: center; /* Centra la imagen de fondo horizontal y verticalmente. */
     
 }
 
 .project-text{
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .card-text{
-    text-align: justify;
-    font-size: 20px;
+    text-align: center;
+    font-size: 16px;
 }
   
+#proyect{
+    font-size: 30px;
+}
