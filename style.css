@@ -4,8 +4,14 @@
 
 
 div.container{
-    font-size: 22px;
+    font-size: 25px;
     color: black;
+    
+}
+
+.inicio{
+    background-image:url('asset/cerosunos.jpg');
+    opacity: 0.8;
 }
 
 .nav-link{
@@ -20,4 +26,19 @@ div.container{
     border-radius: 40%;
 }
 
+.card-image {
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor. */
+     background-position: center; /* Centra la imagen de fondo horizontal y verticalmente. */
+    
+}
+
+.project-text{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 20px;
+}
   
