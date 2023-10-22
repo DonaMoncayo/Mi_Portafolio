@@ -10,14 +10,14 @@ la muestra de sus proyectos realizados.
 Incluye las siguientes secciones:
 
 * SOBRE MI 
-![Alt text](/Portafolio/asset/image.png)
-![Alt text](/Portafolio/asset/image-1.png)
+![Alt text](/asset/image.png)
+![Alt text](/asset/image-1.png)
 
 * PROYECTOS
-![Alt text](/Portafolio/asset/image-2.png)
+![Alt text](/asset/image-2.png)
 
 * CONTACTO
-![Alt text](/Portafolio/asset/image-3.png)
+![Alt text](/asset/image-3.png)
 
 ## 🔧 Tecnologías utilizadas 🔧
 
